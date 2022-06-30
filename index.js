@@ -1,10 +1,4 @@
-//import * as fs from 'node:fs/promises';
-
-// import { copyFileSync, constants } from 'node:fs';
-
-// copyFileSync('file1.txt', 'file1copy2.txt', constants.COPYFILE_EXCL);
-
-//Super heroes
+//Importing the Super heroes package
 var superheroes = require("superheroes");
 var hero1 = superheroes.random();
 console.log(hero1);
