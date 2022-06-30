@@ -1,3 +1,4 @@
+// This will console log a random Superhero and villain name
 //Importing the Super heroes package
 var superheroes = require("superheroes");
 var hero1 = superheroes.random();
